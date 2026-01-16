@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto de Starcrash. Escríbenos para preguntas, pedidos especiales o sugerencias.">
+    <title>Contacto | Starcrash</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <img 
+            class="header-bg" 
+            src="https://i.pinimg.com/736x/5f/24/e6/5f24e660867d9d6879e670db176e203e.jpg" 
+            alt="Imagen de fondo decorativa de Starcrash"
+        >
+
+        <div class="logo">
+            <img 
+                src="logo leslie png.png" alt="Logo oficial de Starcrash"
+            >
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav aria-label="Menú principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="promociones.html">Promociones</a></li>
+            <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="contacto">
+
+        <section class="intro-contacto">
+            <h1>Contáctanos</h1>
+            <p class="descripcion">
+                ¿Tienes preguntas, pedidos especiales o sugerencias?  
+                Escríbenos y te responderemos lo antes posible.
+            </p>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="formulario">
+            <form class="form-contacto" action="#" method="post">
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="Tu nombre" 
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input 
+                        type="email" 
+                        id="correo" 
+                        name="correo" 
+                        placeholder="tucorreo@email.com" 
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea 
+                        id="mensaje" 
+                        name="mensaje" 
+                        placeholder="Escribe tu mensaje..." 
+                        rows="5" 
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Enviar mensaje
+                </button>
+            </form>
+        </section>
+
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <section class="info-contacto">
+            <h2>También puedes encontrarnos aquí</h2>
+            <p>📍 Santo Domingo, República Dominicana</p>
+            <p>📞 +1 (809) 000-0000</p>
+            <p>📧 starcrash@gmail.com</p>
+            <p>📸 Instagram: <a href="https://instagram.com/starcrash">@starcrash</a></p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Starcrash. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

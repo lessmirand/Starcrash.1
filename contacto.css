@@ -1,0 +1,188 @@
+/* ========================= 
+   ESTILO GENERAL
+========================= */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF1E6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.header-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    width: 340px;          /* más grande */
+    max-width: 90%;        /* no se desborda en móvil */
+    height: auto;
+    background: none;     /* quita el fondo */
+    padding: 0;           /* elimina el espacio extra */
+    border-radius: 0;     /* elimina bordes */
+}
+
+/* =========================
+   BARRA DE NAVEGACIÓN
+========================= */
+nav ul {
+    list-style: none;
+    background-color: #C43670; /* Raspberry Mojito */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 14px 22px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #F6C177; /* Sunset */
+}
+
+
+/* =========================
+   CONTENIDO PRINCIPAL
+========================= */
+.contacto {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.contacto h1 {
+    color: #C43670;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* =========================
+   FORMULARIO
+========================= */
+.formulario {
+    background-color: #F9C5D1;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.form-contacto {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: none;
+    border-color: #C43670;
+}
+
+/* =========================
+   BOTÓN
+========================= */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #C43670;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #F283AE;
+    color: #2B1B3F;
+}
+
+/* =========================
+   INFORMACIÓN DE CONTACTO
+========================= */
+.info-contacto {
+    margin-top: 30px;
+}
+
+.info-contacto h2 {
+    color: #C43670;
+    margin-bottom: 15px;
+}
+
+.info-contacto p {
+    margin: 6px 0;
+}
+
+.info-contacto a {
+    color: #C43670;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    background-color: #C43670;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
